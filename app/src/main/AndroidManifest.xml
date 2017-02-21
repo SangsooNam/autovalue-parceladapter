@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="sangsoonam.github.io.autovalue_parceladapter"
+<manifest package="io.github.sangsoonam.autovalue_parceladapter"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application

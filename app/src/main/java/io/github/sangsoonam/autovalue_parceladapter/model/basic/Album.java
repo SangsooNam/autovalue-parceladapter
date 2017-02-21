@@ -1,4 +1,4 @@
-package sangsoonam.github.io.autovalue_parceladapter.model.basic;
+package io.github.sangsoonam.autovalue_parceladapter.model.basic;
 
 public class Album {
 

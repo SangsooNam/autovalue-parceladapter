@@ -1,4 +1,4 @@
-package sangsoonam.github.io.autovalue_parceladapter.model.autovalue_parcel_adapter;
+package io.github.sangsoonam.autovalue_parceladapter.model.autovalue_parcel_adapter;
 
 import android.os.Parcel;
 import android.os.Parcelable;

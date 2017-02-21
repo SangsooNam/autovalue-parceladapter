@@ -1,4 +1,4 @@
-package sangsoonam.github.io.autovalue_parceladapter.model.autovalue;
+package io.github.sangsoonam.autovalue_parceladapter.model.autovalue;
 
 import com.google.auto.value.AutoValue;
 

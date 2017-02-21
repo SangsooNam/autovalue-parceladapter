@@ -1,4 +1,4 @@
-package sangsoonam.github.io.autovalue_parceladapter.model.autovalue_without_parcel_adapter;
+package io.github.sangsoonam.autovalue_parceladapter.model.autovalue_parcel_adapter;
 
 import android.os.Parcel;
 
@@ -31,10 +31,8 @@ public class AlbumTest {
         parcel.setDataPosition(0);
         int afterSize = parcel.dataSize();
 
-        // Doesn't have any problem on running device but cannot call this in the unit test now
-        // due to https://github.com/robolectric/robolectric/issues/2398
-//        final Album newAlbum = AutoValue_Album.CREATOR.createFromParcel(parcel);
-//        assertEquals(album, newAlbum);
+        final Album newAlbum = AutoValue_Album.CREATOR.createFromParcel(parcel);
+        assertEquals(album, newAlbum);
         assertEquals(beforeSize, afterSize);
     }
 

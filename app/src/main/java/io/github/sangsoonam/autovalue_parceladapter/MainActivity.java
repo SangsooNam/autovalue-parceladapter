@@ -1,4 +1,4 @@
-package sangsoonam.github.io.autovalue_parceladapter;
+package io.github.sangsoonam.autovalue_parceladapter;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

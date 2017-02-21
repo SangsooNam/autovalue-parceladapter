@@ -1,10 +1,11 @@
-package sangsoonam.github.io.autovalue_parceladapter.model.autovalue_without_parcel_adapter;
+package io.github.sangsoonam.autovalue_parceladapter.model.autovalue_parcel_adapter;
 
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
 import com.google.auto.value.AutoValue;
+import com.ryanharter.auto.value.parcel.ParcelAdapter;
 
 import java.util.List;
 
@@ -12,6 +13,7 @@ import java.util.List;
 public abstract class Album implements Parcelable {
 
     @NonNull public abstract String title();
+    @ParcelAdapter(Artist.ListTypeAdapter.class)
     @NonNull public abstract List<Artist> artists();
     @Nullable public abstract String description();
     @NonNull public abstract String image();
